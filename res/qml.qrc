@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/bar.png</file>
+        <file>qml/main.qml</file>
+        <file>qml/Sidebar.qml</file>
+    </qresource>
+</RCC>
