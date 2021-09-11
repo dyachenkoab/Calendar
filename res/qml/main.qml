@@ -32,7 +32,7 @@ Window {
         locale: Qt.locale("ru_RU")
         weekNumbersVisible: true
         onClicked: {
-            sidebar.parseDate(Qt.formatDate(date, Qt.locale('ru_RU'), Locale.LongFormat))
+            sidebar.parseDate(date.toLocaleDateString(Qt.locale("ru_RU"), Locale.LongFormat))
             sidebar.noteList = notes.getNotes(date)
         }
     }
